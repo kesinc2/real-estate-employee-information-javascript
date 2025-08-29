@@ -1,5 +1,9 @@
 # real-estate-employee-information-javascript
 ---------first javascript project--------------------------
+Description
+
+This is a simple web project that displays a list of real estate agents in a grid layout.
+Each agent has a photo, name, and a button. When the user clicks the button, a div appears showing detailed information about the selected agent.
 
 JAVASCRİPT
 
