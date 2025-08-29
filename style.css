@@ -1,0 +1,60 @@
+body{
+   padding: 0;
+   margin: 0;
+   background-color: whitesmoke;
+   font-family: 'Merriweather', serif;
+}
+   h3{
+      font-size: 24px;
+   }
+#baslik
+   {
+      text-align: center;
+      
+   }
+   .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 19px;
+        }
+
+        .calisan-card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        }
+
+        button {
+         background-color: #4CAF50; /* Yeşil renk */
+         color: white; /* Yazı rengi */
+         padding: 5px 10px; /* İç boşluk */
+         border: none; /* Kenarlık yok */
+         border-radius: 8px; /* Yuvarlak köşeler */
+         cursor: pointer; /* Fareyi el yap */
+         font-family: 'Roboto', sans-serif; /* Font */
+         font-size: 16px;
+         transition: all 0.3s ease; /* Hover animasyonu için */
+}
+
+         /* Hover efekti */
+         button:hover {
+         background-color: #45a049; /* Daha koyu yeşil */
+         transform: translateY(-2px); /* Hafif yukarı kayma efekti */
+         box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Hafif gölge */
+         }
+
+         /* Aktif tıklama efekti */
+         button:active {
+         transform: translateY(0); /* Tıklamada geri düşsün */
+         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+         }
+         img{
+            height: 220px;
+            width: 70%;
+         }
+         #bilgiDiv{
+            text-align: center;
+         }
+         #bilgiDiv>p{
+            font-size: 17px;
+         }
